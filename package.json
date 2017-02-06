@@ -1,0 +1,29 @@
+{
+  "name": "event_store",
+  "version": "0.0.1",
+  "description": "js module for recording and playing back a series of events",
+  "main": "index.js",
+  "scripts": {
+    "test": "mochify ./**/*Spec.js --reporter=spec --cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjroy/EventStore.git"
+  },
+  "author": "Benjamin Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjroy/EventStore/issues"
+  },
+  "homepage": "https://github.com/benjroy/EventStore#readme",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "localforage": "^1.4.3",
+    "mochify": "^2.18.1",
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "lodash": "^3.0.0",
+    "q": "^1.4.1"
+  }
+}
