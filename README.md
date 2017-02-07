@@ -7,7 +7,7 @@ var EventPlayer = EventStore.EventPlayer;
 
 var eventRecorder = new EventRecorder('some-event-recorder-name', globalStorage)
 
-_.each([ 'dht:request', 'dht:nodes', 'dht:peers' ], function (eventName) {
+[ 'dht:request', 'dht:nodes', 'dht:peers' ].forEach(function (eventName) {
     torrentClient.on(eventName, function (payload) {
       eventRecorder.push(eventName, payload);
     });
