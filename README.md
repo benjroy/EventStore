@@ -1,4 +1,4 @@
-Record and playback a series of events.  Useful for dynamic visualizations.
+Record and playback a series of events in the browser.  Useful for dynamic visualizations.
 
 ```
 var EventStore = require('EventStore');
