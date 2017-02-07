@@ -11,7 +11,7 @@ _.each([ 'dht:request', 'dht:nodes', 'dht:peers' ], function (eventName) {
     torrentClient.on(eventName, function (payload) {
       eventRecorder.push(eventName, payload);
     });
-}, this);
+});
 
 
 var eventPlayer = new EventPlayer();
